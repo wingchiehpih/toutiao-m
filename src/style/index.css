@@ -73,3 +73,13 @@
 .icon-wode:before {
   content: '\e61d';
 }
+body {
+  background-color: #f5f7f9;
+}
+.van-nav-bar {
+  background-color: #3296fa;
+}
+.van-nav-bar .van-nav-bar__title,
+.van-nav-bar .van-icon {
+  color: #fff;
+}

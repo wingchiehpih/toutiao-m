@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
+  <meta>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- 因为图片是第三方爬虫获得的，会被服务端限制产生403报错，服务器端是根据请求中的Referer限制 -->
+    <!-- 解决办法：声明页面中的所有请求都不带referrer -->
+    <meta name='referrer' content="no-referrer"></meta>
   </head>
   <body>
     <noscript>

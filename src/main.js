@@ -11,6 +11,10 @@ import "./style/index.less"
 import 'amfe-flexible'
 // 2、使用pxtorem将px转化为rem npm install postcss-pxtorem -D  开发依赖
 // 3、postcss.config.js中进行配置相关参数
+
+// 加载dayjs插件
+import "./utils/dayjs"
+
 Vue.use(Vant);
 
 

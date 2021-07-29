@@ -1,6 +1,6 @@
 module.exports = {
   plugins: {
-    /*     'autoprefixer': {
+    /*'autoprefixer': {
         配置要兼容的环境信息，cli内部已经集成了相关配置
           browers: ['Android>=4.0', 'iOS>=8']
         }, */

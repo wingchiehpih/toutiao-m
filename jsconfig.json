@@ -1,3 +1,4 @@
+// 配置文件别名
 {
   "compilerOptions": {
     "baseUrl": "./",

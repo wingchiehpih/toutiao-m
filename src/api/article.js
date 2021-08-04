@@ -4,7 +4,9 @@ import request from '@/utils/request'
 export const getArticles = params => {
   return request({
     method: 'GET',
-    url: '/app/v1_1/articles',
+    // url: '/app/v1_1/articles',
+    url: 'v1_1/articles',
+
     // 一般通过params接收query的查询参数
     params
   })
